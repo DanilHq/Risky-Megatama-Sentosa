@@ -588,10 +588,10 @@ section {
 }
 
 .profil img {
-  max-width: 75%;
+  max-width: 60%;
   height: auto;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .profil .col-lg-6 {
@@ -604,7 +604,7 @@ section {
 
 .profil h2 {
   font-size: 2.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   align-self: flex-start;
 }
 
@@ -612,6 +612,7 @@ section {
   font-size: 1.1rem;
   color: #333;
   line-height: 1.6;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -632,7 +633,7 @@ section {
   }
 
   .profil p {
-    text-align: center;
+    text-align: justify;
   }
 
   .profil-label {
@@ -824,6 +825,7 @@ section {
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -841,7 +843,8 @@ section {
   }
 
   .produk-item p {
-    text-align: center;
+    text-align: justify;
+
   }
 }
 
@@ -883,12 +886,14 @@ section {
   font-size: 2rem;
   margin-bottom: 15px;
   color: #333;
+  text-align: justify;
 }
 
 .blog-item p {
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .btn-primary {
@@ -918,11 +923,11 @@ section {
   }
 
   .blog-item h3 {
-    text-align: center;
+    text-align: justify;
   }
 
   .blog-item p {
-    text-align: center;
+    text-align: justify;
   }
 
   .btn-primary {
